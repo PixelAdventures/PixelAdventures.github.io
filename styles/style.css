@@ -1,0 +1,124 @@
+
+/*Basic Stuff*/
+
+* { margin-left: 10px; padding: 0px; border: 0px; background-position: center; background-image:url("../images/Background.png"); background-size: 1000px 1000px; background-repeat:repeat;}
+
+
+h1 {
+	font-family: Comic Sans MS;
+	color: white;
+	background-color: #0000AA;
+	font-size: 2.2em;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: 10px;
+	border-radius: 40px;
+	background-image: none;
+}
+
+p {
+	font-size: 1.2em;
+	background-image: none;
+}
+
+/*buttons*/
+
+.story {
+	background-image:url("../images/Story-Button.png");
+	background-size: 100% 100%;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	cursor:pointer;
+	font-family: Comic Sans MS;
+	padding: 10px 30px;
+}
+
+.look {
+	cursor:url("../images/eye.cur"), auto;
+	padding: 7.5px 25px;
+	background-image:url("../images/Choice-Button.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+.use {
+	cursor:url("../images/hand.cur"), auto;
+	padding: 7.5px 25px;
+	background-image:url("../images/Choice-Button.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+.go {
+	cursor:url("../images/boot.cur"), auto;
+	padding: 7.5px 25px;
+	background-image:url("../images/Choice-Button.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+.time {
+	cursor:url("../images/clock.cur"), auto;
+	padding: 7.5px 25px;
+	background-image:url("../images/Choice-Button.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+.think {
+	cursor:url("../images/thinking.cur"), auto;
+	padding: 7.5px 25px;
+	background-image:url("../images/Choice-Button.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: Comic Sans MS;
+}
+
+.secret {
+	cursor:none;
+	padding: 0px;
+}
+.secret2 {
+	cursor:none;
+	padding: 0px;
+	background-image:none;
+	background-color:#ffaa00;
+	border:0px;
+	cursor:default;
+}
+
+/*Ending*/
+
+.ending {
+	cursor:pointer;
+	padding: 7.5px 25px;
+	background-image:url("../images/Rainbow-Button.png");
+	background-size: 100% 100%;
+	color: white;
+	font-family: Comic Sans MS;
+}
+.endingText {
+	font-family:Comic Sans MS;
+	color:white;
+}
+
+/*Other*/
+
+img {
+	background-image:none;
+}
+
+.shortInfo {
+	font-size: 0.9em;
+}
+
+body {
+	background-image:none;
+}
