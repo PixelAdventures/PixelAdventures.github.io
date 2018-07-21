@@ -8,26 +8,28 @@
 	<meta name="keywords" content="Pixel Adventures">
 	<link rel="shortcut icon" href="images/">
 	<link href="styles/style.css" type="text/css" rel="stylesheet" media="all">
-		<h1>Pixel Adventures - Chapter 1!</h1>
 	</head>
-	<body>
+		<body>
+			<div id="BG">
+		<h1>Pixel Adventures - Chapter 1!</h1>
 		<p id="all">You wake up. It's very cold. Theres something holding your wrists together. You open your Eyes. It seems like you're in a Prison Cell. You can't remember anything. You look around a bit more. A bit of Hay, but nothing else. You might have to wait until a Guard comes to help you fill the missing parts of your Memories...</br></br>
-			<button onclick="lookMore()" class="look">Look around some more</button> <br><br> <button onclick="thinkAboutFood()" class="think">Think about Food</button></p>
+			<button onclick="pc4()" class="look">Look around some more</button> <br><br> <button onclick="pc1()" class="think">Think about Food</button></p>
 		<script src="story.js"></script>
 		<script>
-			function thinkAboutFood()
+			//Prison: Number of Coice (pc) is made after the text/button Numbers
+			function pc1()
 			{
 				document.getElementById("all").innerHTML = prison.text1;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button1;
 			}
-			function Water()
+			function pc2()
 			{
 				document.getElementById("all").innerHTML = prison.text2;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button2;
 			}
-			function thinkFurther()
+			function pc3()
 			{
 				document.getElementById("all").innerHTML = prison.text3;
 				document.getElementById("all").innerHTML += B;
@@ -38,48 +40,48 @@
 			{
 				document.getElementById("all").innerHTML = prison.ds1;
 			}
-			function lookMore()
+			function pc4()
 			{
 				document.getElementById("all").innerHTML = prison.text4;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button4;
 			}
-			function wait()
+			function pw1()
 			{
 				document.getElementById("all").innerHTML = prison.weird1;
 				var careful = 1
 			}
-			function leaveKnife()
+			function pw2()
 			{
 				document.getElementById("all").innerHTML = prison.weird2;
 			}
-			function pickUpKnife()
+			function pc5()
 			{
 				document.getElementById("all").innerHTML = prison.text5;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button5;
 			}
-			function hideKnife()
+			function pc6()
 			{
 				document.getElementById("all").innerHTML = prison.text6;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button6;
 			}
-			function lookThrough()
+			function pc7()
 			{
 				document.getElementById("all").innerHTML = prison.text7;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button7;
 			}
-			function spy()
+			function pc8()
 			{
 				document.getElementById("all").innerHTML = prison.text8;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button8;
 			}
-			function lookDownCorridors2()
+			function pc9()
 			{
-				document.getElementById("all").innerHTML = prison.text9;
+				document.getElementById("all").innerHTML = prison.text24;
 				document.getElementById("all").innerHTML += B;
 				document.getElementById("all").innerHTML += prison.button9;
 			}
@@ -198,6 +200,13 @@
 				document.getElementById("all").innerHTML += prison.button27;
 				var brokenLock=1
 			}
+
+
+
+
+
+
+			
 		</script>
 	</body>
 </html>

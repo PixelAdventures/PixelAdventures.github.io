@@ -1,7 +1,7 @@
 
 /*Basic Stuff*/
 
-* { margin-left: 10px; padding: 0px; border: 0px; background-position: center; background-image:url("../images/Background.png"); background-size: 1000px 1000px; background-repeat:repeat;}
+* { margin-left: 1em; padding: 0px; border: 0px; }
 
 
 h1 {
@@ -121,6 +121,13 @@ img {
 	bottom:0em;
 }
 
-body {
-	background-image:none;
+html {
+	margin-left:-0.01em;
+	height:100%;
+	width:100%;
+	background-size:cover;
+	background-position: center; 
+	background-image:url("../images/Background.png"); 
+	background-size:100% 100%; 
+	background-repeat:no-repeat; 
 }
